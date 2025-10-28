@@ -87,7 +87,6 @@
 				DAA89DEC2EB154080056A207 /* Navigation */,
 				DAA89DFD2EB158390056A207 /* Helpers */,
 				DAA89E122EB1696F0056A207 /* Localizable */,
-				DAA89DEB2EB1532F0056A207 /* Services */,
 			);
 			path = SekretulkaApp;
 			sourceTree = "<group>";
@@ -199,13 +198,6 @@
 				DAA89E032EB158870056A207 /* LaunchViewController.swift */,
 			);
 			path = Launch;
-			sourceTree = "<group>";
-		};
-		DAA89DEB2EB1532F0056A207 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		DAA89DEC2EB154080056A207 /* Navigation */ = {
