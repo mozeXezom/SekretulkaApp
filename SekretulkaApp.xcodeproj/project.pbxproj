@@ -6,30 +6,47 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DA1E55E12EB13DAC00EC7F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1E55D62EB13DAC00EC7F32 /* Assets.xcassets */; };
+		DA1E55E32EB13DAC00EC7F32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1E55D92EB13DAC00EC7F32 /* LaunchScreen.storyboard */; };
+		DA1E55E52EB13DAC00EC7F32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E55D52EB13DAC00EC7F32 /* AppDelegate.swift */; };
+		DA1E55E72EB13DAC00EC7F32 /* SekretulkaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA1E55DD2EB13DAC00EC7F32 /* SekretulkaApp.xcdatamodeld */; };
+		DAA89DF02EB154480056A207 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89DEF2EB154480056A207 /* AppCoordinator.swift */; };
+		DAA89DF22EB154E60056A207 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89DF12EB154E60056A207 /* CoordinatorProtocol.swift */; };
+		DAA89DF52EB1554A0056A207 /* CoordinatorAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89DF42EB1554A0056A207 /* CoordinatorAnimator.swift */; };
+		DAA89DFA2EB1563C0056A207 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89DF92EB1563C0056A207 /* LaunchViewModel.swift */; };
+		DAA89E022EB1586F0056A207 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89E012EB1586F0056A207 /* BaseViewController.swift */; };
+		DAA89E052EB158870056A207 /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA89E042EB158870056A207 /* LaunchViewController.xib */; };
+		DAA89E062EB158870056A207 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89E032EB158870056A207 /* LaunchViewController.swift */; };
+		DAA89E0A2EB159A00056A207 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89E092EB159970056A207 /* NibLoadable.swift */; };
+		DAA89E0D2EB15CFA0056A207 /* IntroductionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA89E0C2EB15CFA0056A207 /* IntroductionViewController.xib */; };
+		DAA89E0E2EB15CFA0056A207 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89E0B2EB15CFA0056A207 /* IntroductionViewController.swift */; };
+		DAA89E112EB15E080056A207 /* IntroductionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89E102EB15E080056A207 /* IntroductionViewModel.swift */; };
+		DAA89E142EB16C540056A207 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DAA89E132EB16C540056A207 /* Localizable.xcstrings */; };
+		DAA89E182EB16D110056A207 /* AppTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89E172EB16D110056A207 /* AppTexts.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		DA1E55BA2EB13D2300EC7F32 /* SekretulkaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SekretulkaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1E55D52EB13DAC00EC7F32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA1E55D62EB13DAC00EC7F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA1E55D72EB13DAC00EC7F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1E55D82EB13DAC00EC7F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA1E55E02EB13DAC00EC7F32 /* SekretulkaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SekretulkaApp.xcdatamodel; sourceTree = "<group>"; };
+		DAA89DEF2EB154480056A207 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		DAA89DF12EB154E60056A207 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		DAA89DF42EB1554A0056A207 /* CoordinatorAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorAnimator.swift; sourceTree = "<group>"; };
+		DAA89DF92EB1563C0056A207 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		DAA89E012EB1586F0056A207 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DAA89E032EB158870056A207 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		DAA89E042EB158870056A207 /* LaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
+		DAA89E092EB159970056A207 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		DAA89E0B2EB15CFA0056A207 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		DAA89E0C2EB15CFA0056A207 /* IntroductionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroductionViewController.xib; sourceTree = "<group>"; };
+		DAA89E102EB15E080056A207 /* IntroductionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewModel.swift; sourceTree = "<group>"; };
+		DAA89E132EB16C540056A207 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		DAA89E172EB16D110056A207 /* AppTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTexts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		DA1E55CF2EB13D2500EC7F32 /* Exceptions for "SekretulkaApp" folder in "SekretulkaApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = DA1E55B92EB13D2300EC7F32 /* SekretulkaApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DA1E55BC2EB13D2300EC7F32 /* SekretulkaApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				DA1E55CF2EB13D2500EC7F32 /* Exceptions for "SekretulkaApp" folder in "SekretulkaApp" target */,
-			);
-			path = SekretulkaApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DA1E55B72EB13D2300EC7F32 /* Frameworks */ = {
@@ -45,7 +62,7 @@
 		DA1E55B12EB13D2300EC7F32 = {
 			isa = PBXGroup;
 			children = (
-				DA1E55BC2EB13D2300EC7F32 /* SekretulkaApp */,
+				DA1E55DF2EB13DAC00EC7F32 /* SekretulkaApp */,
 				DA1E55BB2EB13D2300EC7F32 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +73,279 @@
 				DA1E55BA2EB13D2300EC7F32 /* SekretulkaApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DA1E55DF2EB13DAC00EC7F32 /* SekretulkaApp */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DDE2EB150560056A207 /* Configuration */,
+				DAA89DE02EB151C00056A207 /* LayoutPreview */,
+				DAA89DE82EB152D60056A207 /* ViewController */,
+				DAA89DF62EB156220056A207 /* ViewModel */,
+				DAA89DE22EB152730056A207 /* Components */,
+				DAA89DE52EB152B10056A207 /* Storage */,
+				DAA89DEC2EB154080056A207 /* Navigation */,
+				DAA89DFD2EB158390056A207 /* Helpers */,
+				DAA89E122EB1696F0056A207 /* Localizable */,
+				DAA89DEB2EB1532F0056A207 /* Services */,
+			);
+			path = SekretulkaApp;
+			sourceTree = "<group>";
+		};
+		DAA89DDE2EB150560056A207 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E55D52EB13DAC00EC7F32 /* AppDelegate.swift */,
+				DAA89DDF2EB150720056A207 /* AppSettings */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		DAA89DDF2EB150720056A207 /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E55D72EB13DAC00EC7F32 /* Info.plist */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		DAA89DE02EB151C00056A207 /* LayoutPreview */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DE12EB151EE0056A207 /* Onboarding */,
+			);
+			path = LayoutPreview;
+			sourceTree = "<group>";
+		};
+		DAA89DE12EB151EE0056A207 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89E072EB158920056A207 /* Launch */,
+				DAA89E0F2EB15CFE0056A207 /* Introduction */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DAA89DE22EB152730056A207 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DE32EB152800056A207 /* UserInterface */,
+				DAA89E152EB16C700056A207 /* Assets */,
+				DAA89DE42EB1529C0056A207 /* Additional */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DAA89DE32EB152800056A207 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89E162EB16D0A0056A207 /* Text */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		DAA89DE42EB1529C0056A207 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E55D92EB13DAC00EC7F32 /* LaunchScreen.storyboard */,
+			);
+			path = Additional;
+			sourceTree = "<group>";
+		};
+		DAA89DE52EB152B10056A207 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DE62EB152BE0056A207 /* Local */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		DAA89DE62EB152BE0056A207 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DE72EB152C40056A207 /* DataModel */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		DAA89DE72EB152C40056A207 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E55DD2EB13DAC00EC7F32 /* SekretulkaApp.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		DAA89DE82EB152D60056A207 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DE92EB153100056A207 /* Onboarding */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DAA89DE92EB153100056A207 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DEA2EB153150056A207 /* Launch */,
+				DAA89DFC2EB156BD0056A207 /* Introduction */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DAA89DEA2EB153150056A207 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89E032EB158870056A207 /* LaunchViewController.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		DAA89DEB2EB1532F0056A207 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DAA89DEC2EB154080056A207 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DED2EB154180056A207 /* Coordinator */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		DAA89DED2EB154180056A207 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DF32EB1550E0056A207 /* CoordinatorAnimator */,
+				DAA89DEE2EB1543A0056A207 /* CoordinatorProtocol */,
+				DAA89DEF2EB154480056A207 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		DAA89DEE2EB1543A0056A207 /* CoordinatorProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DF12EB154E60056A207 /* CoordinatorProtocol.swift */,
+			);
+			path = CoordinatorProtocol;
+			sourceTree = "<group>";
+		};
+		DAA89DF32EB1550E0056A207 /* CoordinatorAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DF42EB1554A0056A207 /* CoordinatorAnimator.swift */,
+			);
+			path = CoordinatorAnimator;
+			sourceTree = "<group>";
+		};
+		DAA89DF62EB156220056A207 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DF72EB1562B0056A207 /* Onboarding */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DAA89DF72EB1562B0056A207 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DF82EB156320056A207 /* Launch */,
+				DAA89DFB2EB1568E0056A207 /* Introduction */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DAA89DF82EB156320056A207 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DF92EB1563C0056A207 /* LaunchViewModel.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		DAA89DFB2EB1568E0056A207 /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89E102EB15E080056A207 /* IntroductionViewModel.swift */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		DAA89DFC2EB156BD0056A207 /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89E0B2EB15CFA0056A207 /* IntroductionViewController.swift */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		DAA89DFD2EB158390056A207 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89DFE2EB158530056A207 /* ViewController */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DAA89DFE2EB158530056A207 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89E012EB1586F0056A207 /* BaseViewController.swift */,
+				DAA89E082EB159900056A207 /* Support */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DAA89E072EB158920056A207 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89E042EB158870056A207 /* LaunchViewController.xib */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		DAA89E082EB159900056A207 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89E092EB159970056A207 /* NibLoadable.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		DAA89E0F2EB15CFE0056A207 /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89E0C2EB15CFA0056A207 /* IntroductionViewController.xib */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		DAA89E122EB1696F0056A207 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89E132EB16C540056A207 /* Localizable.xcstrings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		DAA89E152EB16C700056A207 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E55D62EB13DAC00EC7F32 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DAA89E162EB16D0A0056A207 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				DAA89E172EB16D110056A207 /* AppTexts.swift */,
+			);
+			path = Text;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +362,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				DA1E55BC2EB13D2300EC7F32 /* SekretulkaApp */,
 			);
 			name = SekretulkaApp;
 			packageProductDependencies = (
@@ -122,6 +409,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA89E0D2EB15CFA0056A207 /* IntroductionViewController.xib in Resources */,
+				DAA89E142EB16C540056A207 /* Localizable.xcstrings in Resources */,
+				DAA89E052EB158870056A207 /* LaunchViewController.xib in Resources */,
+				DA1E55E12EB13DAC00EC7F32 /* Assets.xcassets in Resources */,
+				DA1E55E32EB13DAC00EC7F32 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +424,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA89DF02EB154480056A207 /* AppCoordinator.swift in Sources */,
+				DA1E55E52EB13DAC00EC7F32 /* AppDelegate.swift in Sources */,
+				DAA89E182EB16D110056A207 /* AppTexts.swift in Sources */,
+				DAA89DFA2EB1563C0056A207 /* LaunchViewModel.swift in Sources */,
+				DAA89E0A2EB159A00056A207 /* NibLoadable.swift in Sources */,
+				DAA89E112EB15E080056A207 /* IntroductionViewModel.swift in Sources */,
+				DAA89DF22EB154E60056A207 /* CoordinatorProtocol.swift in Sources */,
+				DAA89DF52EB1554A0056A207 /* CoordinatorAnimator.swift in Sources */,
+				DAA89E0E2EB15CFA0056A207 /* IntroductionViewController.swift in Sources */,
+				DAA89E022EB1586F0056A207 /* BaseViewController.swift in Sources */,
+				DA1E55E72EB13DAC00EC7F32 /* SekretulkaApp.xcdatamodeld in Sources */,
+				DAA89E062EB158870056A207 /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA1E55D92EB13DAC00EC7F32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1E55D82EB13DAC00EC7F32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DA1E55D12EB13D2500EC7F32 /* Debug */ = {
@@ -143,15 +458,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HLZY6MSJKT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SekretulkaApp/Info.plist;
+				INFOPLIST_FILE = SekretulkaApp/Configuration/AppSettings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -159,13 +476,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xezom.social.SekretulkaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -174,15 +496,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HLZY6MSJKT;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SekretulkaApp/Info.plist;
+				INFOPLIST_FILE = SekretulkaApp/Configuration/AppSettings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -190,13 +514,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xezom.social.SekretulkaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -259,6 +588,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -315,6 +645,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -341,6 +672,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA1E55DD2EB13DAC00EC7F32 /* SekretulkaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA1E55E02EB13DAC00EC7F32 /* SekretulkaApp.xcdatamodel */,
+			);
+			currentVersion = DA1E55E02EB13DAC00EC7F32 /* SekretulkaApp.xcdatamodel */;
+			path = SekretulkaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DA1E55B22EB13D2300EC7F32 /* Project object */;
 }
