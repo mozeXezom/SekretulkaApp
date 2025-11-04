@@ -11,6 +11,15 @@
 		DA1E55E32EB13DAC00EC7F32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1E55D92EB13DAC00EC7F32 /* LaunchScreen.storyboard */; };
 		DA1E55E52EB13DAC00EC7F32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1E55D52EB13DAC00EC7F32 /* AppDelegate.swift */; };
 		DA1E55E72EB13DAC00EC7F32 /* SekretulkaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA1E55DD2EB13DAC00EC7F32 /* SekretulkaApp.xcdatamodeld */; };
+		DA6AD8B72EBA3DCA00DA2278 /* LogoAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6AD8B62EBA3DCA00DA2278 /* LogoAnimator.swift */; };
+		DA6AD8B92EBA42FF00DA2278 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DA6AD8B82EBA42FF00DA2278 /* Localizable.xcstrings */; };
+		DA6AD8BC2EBA472600DA2278 /* AppImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6AD8BB2EBA472600DA2278 /* AppImages.swift */; };
+		DA6AD8C42EBA491100DA2278 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA6AD8BE2EBA491100DA2278 /* Lato-Black.ttf */; };
+		DA6AD8C52EBA491100DA2278 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA6AD8C12EBA491100DA2278 /* Lato-Light.ttf */; };
+		DA6AD8C62EBA491100DA2278 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA6AD8BF2EBA491100DA2278 /* Lato-Bold.ttf */; };
+		DA6AD8C72EBA491100DA2278 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA6AD8C02EBA491100DA2278 /* Lato-Italic.ttf */; };
+		DA6AD8C82EBA491100DA2278 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA6AD8C22EBA491100DA2278 /* Lato-Regular.ttf */; };
+		DA6AD8C92EBA491100DA2278 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA6AD8C32EBA491100DA2278 /* Lato-Thin.ttf */; };
 		DAA89DF02EB154480056A207 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89DEF2EB154480056A207 /* AppCoordinator.swift */; };
 		DAA89DF22EB154E60056A207 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89DF12EB154E60056A207 /* CoordinatorProtocol.swift */; };
 		DAA89DF52EB1554A0056A207 /* CoordinatorAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89DF42EB1554A0056A207 /* CoordinatorAnimator.swift */; };
@@ -22,7 +31,6 @@
 		DAA89E0D2EB15CFA0056A207 /* IntroductionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA89E0C2EB15CFA0056A207 /* IntroductionViewController.xib */; };
 		DAA89E0E2EB15CFA0056A207 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89E0B2EB15CFA0056A207 /* IntroductionViewController.swift */; };
 		DAA89E112EB15E080056A207 /* IntroductionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89E102EB15E080056A207 /* IntroductionViewModel.swift */; };
-		DAA89E142EB16C540056A207 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DAA89E132EB16C540056A207 /* Localizable.xcstrings */; };
 		DAA89E182EB16D110056A207 /* AppTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89E172EB16D110056A207 /* AppTexts.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +41,15 @@
 		DA1E55D72EB13DAC00EC7F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA1E55D82EB13DAC00EC7F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA1E55E02EB13DAC00EC7F32 /* SekretulkaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SekretulkaApp.xcdatamodel; sourceTree = "<group>"; };
+		DA6AD8B62EBA3DCA00DA2278 /* LogoAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimator.swift; sourceTree = "<group>"; };
+		DA6AD8B82EBA42FF00DA2278 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		DA6AD8BB2EBA472600DA2278 /* AppImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImages.swift; sourceTree = "<group>"; };
+		DA6AD8BE2EBA491100DA2278 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		DA6AD8BF2EBA491100DA2278 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		DA6AD8C02EBA491100DA2278 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		DA6AD8C12EBA491100DA2278 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		DA6AD8C22EBA491100DA2278 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		DA6AD8C32EBA491100DA2278 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
 		DAA89DEF2EB154480056A207 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		DAA89DF12EB154E60056A207 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 		DAA89DF42EB1554A0056A207 /* CoordinatorAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorAnimator.swift; sourceTree = "<group>"; };
@@ -44,7 +61,6 @@
 		DAA89E0B2EB15CFA0056A207 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		DAA89E0C2EB15CFA0056A207 /* IntroductionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroductionViewController.xib; sourceTree = "<group>"; };
 		DAA89E102EB15E080056A207 /* IntroductionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewModel.swift; sourceTree = "<group>"; };
-		DAA89E132EB16C540056A207 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		DAA89E172EB16D110056A207 /* AppTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTexts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,10 +101,40 @@
 				DAA89DE22EB152730056A207 /* Components */,
 				DAA89DE52EB152B10056A207 /* Storage */,
 				DAA89DEC2EB154080056A207 /* Navigation */,
+				DA6AD8B52EBA3D9A00DA2278 /* Animators */,
 				DAA89DFD2EB158390056A207 /* Helpers */,
 				DAA89E122EB1696F0056A207 /* Localizable */,
 			);
 			path = SekretulkaApp;
+			sourceTree = "<group>";
+		};
+		DA6AD8B52EBA3D9A00DA2278 /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				DA6AD8B62EBA3DCA00DA2278 /* LogoAnimator.swift */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		DA6AD8BA2EBA471600DA2278 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DA6AD8BB2EBA472600DA2278 /* AppImages.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		DA6AD8BD2EBA48EB00DA2278 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DA6AD8BE2EBA491100DA2278 /* Lato-Black.ttf */,
+				DA6AD8BF2EBA491100DA2278 /* Lato-Bold.ttf */,
+				DA6AD8C02EBA491100DA2278 /* Lato-Italic.ttf */,
+				DA6AD8C12EBA491100DA2278 /* Lato-Light.ttf */,
+				DA6AD8C22EBA491100DA2278 /* Lato-Regular.ttf */,
+				DA6AD8C32EBA491100DA2278 /* Lato-Thin.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		DAA89DDE2EB150560056A207 /* Configuration */ = {
@@ -129,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				DAA89DE32EB152800056A207 /* UserInterface */,
+				DA6AD8BD2EBA48EB00DA2278 /* Fonts */,
 				DAA89E152EB16C700056A207 /* Assets */,
 				DAA89DE42EB1529C0056A207 /* Additional */,
 			);
@@ -139,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				DAA89E162EB16D0A0056A207 /* Text */,
+				DA6AD8BA2EBA471600DA2278 /* Image */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -319,7 +367,7 @@
 		DAA89E122EB1696F0056A207 /* Localizable */ = {
 			isa = PBXGroup;
 			children = (
-				DAA89E132EB16C540056A207 /* Localizable.xcstrings */,
+				DA6AD8B82EBA42FF00DA2278 /* Localizable.xcstrings */,
 			);
 			path = Localizable;
 			sourceTree = "<group>";
@@ -378,11 +426,12 @@
 				};
 			};
 			buildConfigurationList = DA1E55B52EB13D2300EC7F32 /* Build configuration list for PBXProject "SekretulkaApp" */;
-			developmentRegion = en;
+			developmentRegion = uk;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				uk,
+				ru,
 			);
 			mainGroup = DA1E55B12EB13D2300EC7F32;
 			minimizedProjectReferenceProxies = 1;
@@ -401,8 +450,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6AD8C42EBA491100DA2278 /* Lato-Black.ttf in Resources */,
+				DA6AD8C52EBA491100DA2278 /* Lato-Light.ttf in Resources */,
+				DA6AD8C62EBA491100DA2278 /* Lato-Bold.ttf in Resources */,
+				DA6AD8C72EBA491100DA2278 /* Lato-Italic.ttf in Resources */,
+				DA6AD8C82EBA491100DA2278 /* Lato-Regular.ttf in Resources */,
+				DA6AD8C92EBA491100DA2278 /* Lato-Thin.ttf in Resources */,
 				DAA89E0D2EB15CFA0056A207 /* IntroductionViewController.xib in Resources */,
-				DAA89E142EB16C540056A207 /* Localizable.xcstrings in Resources */,
+				DA6AD8B92EBA42FF00DA2278 /* Localizable.xcstrings in Resources */,
 				DAA89E052EB158870056A207 /* LaunchViewController.xib in Resources */,
 				DA1E55E12EB13DAC00EC7F32 /* Assets.xcassets in Resources */,
 				DA1E55E32EB13DAC00EC7F32 /* LaunchScreen.storyboard in Resources */,
@@ -424,6 +479,8 @@
 				DAA89E112EB15E080056A207 /* IntroductionViewModel.swift in Sources */,
 				DAA89DF22EB154E60056A207 /* CoordinatorProtocol.swift in Sources */,
 				DAA89DF52EB1554A0056A207 /* CoordinatorAnimator.swift in Sources */,
+				DA6AD8B72EBA3DCA00DA2278 /* LogoAnimator.swift in Sources */,
+				DA6AD8BC2EBA472600DA2278 /* AppImages.swift in Sources */,
 				DAA89E0E2EB15CFA0056A207 /* IntroductionViewController.swift in Sources */,
 				DAA89E022EB1586F0056A207 /* BaseViewController.swift in Sources */,
 				DA1E55E72EB13DAC00EC7F32 /* SekretulkaApp.xcdatamodeld in Sources */,

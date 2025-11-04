@@ -13,8 +13,6 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
         print("Root controller: \(self)")
     }
-    
-    
 }
 
 extension BaseViewController: NibLoadable {}
