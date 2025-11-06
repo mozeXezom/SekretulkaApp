@@ -8,20 +8,50 @@
 import UIKit
 
 final class IntroductionViewModel {
-    
-    var introductionSkipText: String { AppTexts.Launch.skipInfo }
-    var introductionMoveNextText: String { AppTexts.Launch.moveNextStep }
-    var introductionStartText: String { AppTexts.Launch.startAction }
-    
-    var introductionTitleOneText: String { AppTexts.Launch.introductionTitle1 }
-    var introductionTitleTwoText: String { AppTexts.Launch.introductionTitle2 }
-    var introductionTitleThreeText: String { AppTexts.Launch.introductionTitle3 }
-    
-    var introductionDescriptionOneText: String { AppTexts.Launch.introductionDescription1 }
-    var introductionDescriptionTwoText: String { AppTexts.Launch.introductionDescription2 }
-    var introductionDescriptionThreeText: String { AppTexts.Launch.introductionDescription3 }
-    
-    var introductionOneImage: UIImage { AppImages.Launch.introductionPreview1Image ?? UIImage() }
-    var introductionTwoImage: UIImage { AppImages.Launch.introductionPreview2Image ?? UIImage() }
-    var introductionThreeImage: UIImage { AppImages.Launch.introductionPreview3Image ?? UIImage() }
+
+    private(set) var introductionSteps: [IntroductionStepModel] = []
+    private(set) var currentStepIndex = 0
+
+    var prepareIntroductionStep: ((IntroductionStepModel, Int) -> Void)?
+    var onFinish: (() -> Void)?
+
+    init() {
+        introductionSteps = [
+            IntroductionStepModel(
+                image: AppImages.Launch.introductionPreview1Image,
+                title: AppTexts.Launch.introductionTitle1,
+                description: AppTexts.Launch.introductionDescription1,
+                buttonTitle: AppTexts.Launch.moveNextStep
+            ),
+            IntroductionStepModel(
+                image: AppImages.Launch.introductionPreview2Image,
+                title: AppTexts.Launch.introductionTitle2,
+                description: AppTexts.Launch.introductionDescription2,
+                buttonTitle: AppTexts.Launch.moveNextStep
+            ),
+            IntroductionStepModel(
+                image: AppImages.Launch.introductionPreview3Image,
+                title: AppTexts.Launch.introductionTitle3,
+                description: AppTexts.Launch.introductionDescription3,
+                buttonTitle: AppTexts.Launch.startAction
+            )
+        ]
+    }
+
+    func start() {
+        prepareIntroductionStep?(introductionSteps[currentStepIndex], currentStepIndex)
+    }
+
+    func moveNext() {
+        guard currentStepIndex < introductionSteps.count - 1 else {
+            onFinish?()
+            return
+        }
+        currentStepIndex += 1
+        prepareIntroductionStep?(introductionSteps[currentStepIndex], currentStepIndex)
+    }
+
+    func prepareSkip() {
+        onFinish?()
+    }
 }

@@ -12,14 +12,17 @@ final class AppCoordinator: NSObject, CoordinatorProtocol {
     private var currentVC: UIViewController?
 
     func start() {
-        //prepareLaunchScreen()
-        prepareIntroductionScreen()
+        prepareLaunchScreen()
     }
 
     private func prepareLaunchScreen() {
-        let viewModel = LaunchViewModel()
+        let model = LaunchModel(
+            title: AppTexts.Launch.appNameTitle,
+            logo: AppImages.Launch.appLogoImage
+        )
+        let viewModel = LaunchViewModel(model: model)
         let vc = LaunchViewController(viewModel: viewModel)
-        
+
         viewModel.prepareIntroduction = { [weak self] in
             self?.prepareIntroductionScreen()
         }
@@ -33,9 +36,22 @@ final class AppCoordinator: NSObject, CoordinatorProtocol {
         vc.modalPresentationStyle = .fullScreen
         vc.transitioningDelegate = self
         
+        viewModel.onFinish = { [weak self] in
+            self?.prepareRegistrationScreen()
+        }
+        
         currentVC?.present(vc, animated: true)
-        //currentVC = vc
-        setRoot(vc)
+        currentVC = vc
+    }
+    
+    private func prepareRegistrationScreen() {
+        let viewModel = RegistrationViewModel()
+        let vc = RegistrationViewController(viewModel: viewModel)
+        vc.modalPresentationStyle = .fullScreen
+        vc.transitioningDelegate = self
+        
+        currentVC?.present(vc, animated: true)
+        currentVC = vc
     }
 
     private func setRoot(_ vc: UIViewController) {

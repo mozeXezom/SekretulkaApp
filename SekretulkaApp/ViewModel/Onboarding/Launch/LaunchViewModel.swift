@@ -8,12 +8,18 @@
 import UIKit
 
 final class LaunchViewModel {
+    
     var prepareIntroduction: (() -> Void)?
     
-    var launchTitleText: String { AppTexts.Launch.appNameTitle }
+    private let model: LaunchModel
     
-    var launchLogoImage: UIImage { AppImages.Launch.appLogoImage ?? UIImage() }
-
+    init(model: LaunchModel) {
+        self.model = model
+    }
+    
+    var launchTitleText: String { model.title }
+    var launchLogoImage: UIImage? { model.logo }
+    
     func nextPressed() {
         prepareIntroduction?()
     }
