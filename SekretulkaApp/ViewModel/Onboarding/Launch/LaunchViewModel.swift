@@ -11,6 +11,7 @@ final class LaunchViewModel {
     var prepareIntroduction: (() -> Void)?
     
     var launchTitleText: String { AppTexts.Launch.appNameTitle }
+    
     var launchLogoImage: UIImage { AppImages.Launch.appLogoImage ?? UIImage() }
 
     func nextPressed() {

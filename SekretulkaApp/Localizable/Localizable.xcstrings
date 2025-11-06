@@ -1,6 +1,66 @@
 {
   "sourceLanguage" : "uk",
   "strings" : {
+    "introduction_description1" : {
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тут можна виговоритись без страху. Напиши свій секрет, полегши серце і відчуй, як стає легше. У «Секретульці» тебе зрозуміють."
+          }
+        }
+      }
+    },
+    "introduction_description2" : {
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Люди діляться тим, що нікому не казали. Читай, коментуй і знаходь розуміння навіть у незнайомцях."
+          }
+        }
+      }
+    },
+    "introduction_description3" : {
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тут немає імен і засудження. Лише чесні думки, справжні емоції і місце, де можна бути собою."
+          }
+        }
+      }
+    },
+    "introduction_title1" : {
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кожен секрет має свого слухача"
+          }
+        }
+      }
+    },
+    "introduction_title2" : {
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зазирни в чужі історії — вони ближчі, ніж здається"
+          }
+        }
+      }
+    },
+    "introduction_title3" : {
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Твоя анонімність — наша головна цінність"
+          }
+        }
+      }
+    },
     "launch_title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -8,6 +68,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Секретулька"
+          }
+        }
+      }
+    },
+    "move_next_step" : {
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Далі"
+          }
+        }
+      }
+    },
+    "skip_info" : {
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропустити"
+          }
+        }
+      }
+    },
+    "start_action" : {
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розпочати"
           }
         }
       }

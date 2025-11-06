@@ -12,7 +12,8 @@ final class AppCoordinator: NSObject, CoordinatorProtocol {
     private var currentVC: UIViewController?
 
     func start() {
-        prepareLaunchScreen()
+        //prepareLaunchScreen()
+        prepareIntroductionScreen()
     }
 
     private func prepareLaunchScreen() {
@@ -33,7 +34,8 @@ final class AppCoordinator: NSObject, CoordinatorProtocol {
         vc.transitioningDelegate = self
         
         currentVC?.present(vc, animated: true)
-        currentVC = vc
+        //currentVC = vc
+        setRoot(vc)
     }
 
     private func setRoot(_ vc: UIViewController) {

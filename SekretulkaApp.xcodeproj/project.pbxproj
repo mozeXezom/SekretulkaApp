@@ -20,6 +20,7 @@
 		DA6AD8C72EBA491100DA2278 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA6AD8C02EBA491100DA2278 /* Lato-Italic.ttf */; };
 		DA6AD8C82EBA491100DA2278 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA6AD8C22EBA491100DA2278 /* Lato-Regular.ttf */; };
 		DA6AD8C92EBA491100DA2278 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA6AD8C32EBA491100DA2278 /* Lato-Thin.ttf */; };
+		DA95DE282EBCCE3100D9A60A /* CustomGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA95DE272EBCCE3100D9A60A /* CustomGradientButton.swift */; };
 		DAA89DF02EB154480056A207 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89DEF2EB154480056A207 /* AppCoordinator.swift */; };
 		DAA89DF22EB154E60056A207 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89DF12EB154E60056A207 /* CoordinatorProtocol.swift */; };
 		DAA89DF52EB1554A0056A207 /* CoordinatorAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA89DF42EB1554A0056A207 /* CoordinatorAnimator.swift */; };
@@ -50,6 +51,7 @@
 		DA6AD8C12EBA491100DA2278 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		DA6AD8C22EBA491100DA2278 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		DA6AD8C32EBA491100DA2278 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		DA95DE272EBCCE3100D9A60A /* CustomGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientButton.swift; sourceTree = "<group>"; };
 		DAA89DEF2EB154480056A207 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		DAA89DF12EB154E60056A207 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 		DAA89DF42EB1554A0056A207 /* CoordinatorAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorAnimator.swift; sourceTree = "<group>"; };
@@ -135,6 +137,14 @@
 				DA6AD8C32EBA491100DA2278 /* Lato-Thin.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DA95DE262EBCCE1E00D9A60A /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				DA95DE272EBCCE3100D9A60A /* CustomGradientButton.swift */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 		DAA89DDE2EB150560056A207 /* Configuration */ = {
@@ -326,6 +336,7 @@
 		DAA89DFD2EB158390056A207 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DA95DE262EBCCE1E00D9A60A /* UIButton */,
 				DAA89DFE2EB158530056A207 /* ViewController */,
 			);
 			path = Helpers;
@@ -472,6 +483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAA89DF02EB154480056A207 /* AppCoordinator.swift in Sources */,
+				DA95DE282EBCCE3100D9A60A /* CustomGradientButton.swift in Sources */,
 				DA1E55E52EB13DAC00EC7F32 /* AppDelegate.swift in Sources */,
 				DAA89E182EB16D110056A207 /* AppTexts.swift in Sources */,
 				DAA89DFA2EB1563C0056A207 /* LaunchViewModel.swift in Sources */,

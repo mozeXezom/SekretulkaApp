@@ -4,12 +4,24 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IntroductionViewController" customModule="SekretulkaApp" customModuleProvider="target">
             <connections>
+                <outlet property="introductionDescriptionLabel" destination="HkA-me-PKR" id="xju-Ps-u94"/>
+                <outlet property="introductionImageView" destination="9nc-I4-ebg" id="qFq-ob-DcL"/>
+                <outlet property="introductionMoveNextButton" destination="dFY-RI-9a3" id="Zse-cT-FOb"/>
+                <outlet property="introductionSkipButton" destination="pDK-aD-kY0" id="fpS-WB-d7b"/>
+                <outlet property="introductionTitleLabel" destination="d7Z-jq-ZBi" id="WWI-hS-PXT"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,14 +29,74 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9nc-I4-ebg">
+                    <rect key="frame" x="61.666666666666657" y="218" width="270" height="270"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="270" id="GyV-WY-HI6"/>
+                        <constraint firstAttribute="width" constant="270" id="V25-E1-vdW"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7Z-jq-ZBi">
+                    <rect key="frame" x="15" y="498" width="363" height="30"/>
+                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="25"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HkA-me-PKR">
+                    <rect key="frame" x="15" y="543" width="363" height="18"/>
+                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFY-RI-9a3" customClass="CustomGradientButton" customModule="SekretulkaApp" customModuleProvider="target">
+                    <rect key="frame" x="15" y="719" width="363" height="45"/>
+                    <color key="backgroundColor" red="0.51099526880000001" green="0.13020554179999999" blue="0.87789267299999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="MVx-hP-YHx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="17"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="moveNextPressed:" destination="-1" eventType="touchUpInside" id="cPQ-wV-fIQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDK-aD-kY0">
+                    <rect key="frame" x="332" y="123" width="46" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="toT-E3-VJy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="skipPressed:" destination="-1" eventType="touchUpInside" id="PAm-ji-qUN"/>
+                    </connections>
+                </button>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemPurpleColor"/>
-            <point key="canvasLocation" x="-143" y="103"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="d7Z-jq-ZBi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="0DJ-nd-TOL"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dFY-RI-9a3" secondAttribute="bottom" constant="20" id="0gK-sC-JLl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dFY-RI-9a3" secondAttribute="trailing" constant="15" id="5ei-Hb-bFm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="d7Z-jq-ZBi" secondAttribute="trailing" constant="15" id="FNH-os-I2j"/>
+                <constraint firstItem="HkA-me-PKR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="YzC-di-qFS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pDK-aD-kY0" secondAttribute="trailing" constant="15" id="ahw-3P-K12"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="HkA-me-PKR" secondAttribute="trailing" constant="15" id="baZ-xf-wYo"/>
+                <constraint firstItem="d7Z-jq-ZBi" firstAttribute="top" secondItem="9nc-I4-ebg" secondAttribute="bottom" constant="10" id="hGn-hL-k2Q"/>
+                <constraint firstItem="HkA-me-PKR" firstAttribute="top" secondItem="d7Z-jq-ZBi" secondAttribute="bottom" constant="15" id="mFM-sy-CIK"/>
+                <constraint firstItem="dFY-RI-9a3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="nS5-kQ-4At"/>
+                <constraint firstItem="pDK-aD-kY0" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="5" id="qsH-IS-bVb"/>
+                <constraint firstItem="9nc-I4-ebg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="ueQ-sr-qTn"/>
+                <constraint firstItem="9nc-I4-ebg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wyQ-bZ-N3G"/>
+            </constraints>
+            <point key="canvasLocation" x="-144.27480916030532" y="102.8169014084507"/>
         </view>
     </objects>
-    <resources>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-    </resources>
 </document>

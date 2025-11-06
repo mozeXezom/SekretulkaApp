@@ -12,5 +12,14 @@ enum AppImages {
         static var appLogoImage: UIImage? {
             UIImage(named: "onboardingAppLogo_sk")
         }
+        static var introductionPreview1Image: UIImage? {
+            UIImage(named: "introductionPreview1_sk")
+        }
+        static var introductionPreview2Image: UIImage? {
+            UIImage(named: "introductionPreview2_sk")
+        }
+        static var introductionPreview3Image: UIImage? {
+            UIImage(named: "introductionPreview3_sk")
+        }
     }
 }
